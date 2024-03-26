@@ -13,3 +13,12 @@ int fungsiLuas(int p, int l)
 	return p * l;
 }
 
+int main()
+{
+	int panjang, lebar;
+	cout << "Masukkan panjang: ";
+	cin >> panjang;
+	cout << "Masukkan lebar: ";
+	cin >> lebar;
+
+}
