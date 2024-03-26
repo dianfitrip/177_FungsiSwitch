@@ -56,7 +56,10 @@ int main()
 			inputdata();
 			cout << "\nHasil Pengurangan: " << pengurangan(bilangan1, bilangan2) << endl; 
 			system("pause");
-		
+		case 3:
+			inputdata();
+			cout << "\nHasil Perkalian: " << perkalian(bilangan1, bilangan2) << endl; 
+			system("pause");
 		}
 	}
 }
