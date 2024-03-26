@@ -64,6 +64,9 @@ int main()
 			inputdata();
 			cout << "\nHasil Perkalian: " << pembagian(bilangan1, bilangan2) << endl; 
 			system("pause");
+
 		}
-	}
+	} while (pilihan != 5); //! artinya "tidak sama dengan".
+
+	return 0;
 }
